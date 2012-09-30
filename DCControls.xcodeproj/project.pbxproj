@@ -21,6 +21,7 @@
 		AB1035B01366B14D00216FE5 /* DCControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1035AF1366B14D00216FE5 /* DCControl.m */; };
 		AB1035B51366B15700216FE5 /* DCKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1035B21366B15700216FE5 /* DCKnob.m */; };
 		AB1035B61366B15700216FE5 /* DCSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1035B41366B15700216FE5 /* DCSlider.m */; };
+		F02B818D16185C57003EF533 /* ADBSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F02B818C16185C57003EF533 /* ADBSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		AB1035B21366B15700216FE5 /* DCKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCKnob.m; sourceTree = "<group>"; };
 		AB1035B31366B15700216FE5 /* DCSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSlider.h; sourceTree = "<group>"; };
 		AB1035B41366B15700216FE5 /* DCSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSlider.m; sourceTree = "<group>"; };
+		F02B818B16185C57003EF533 /* ADBSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADBSlider.h; path = DCControls/ADBSlider.h; sourceTree = "<group>"; };
+		F02B818C16185C57003EF533 /* ADBSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADBSlider.m; path = DCControls/ADBSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 		AB10356113669BE900216FE5 = {
 			isa = PBXGroup;
 			children = (
+				F02B818B16185C57003EF533 /* ADBSlider.h */,
+				F02B818C16185C57003EF533 /* ADBSlider.m */,
 				AB10358A13669C0100216FE5 /* DCControlsAppDelegate.h */,
 				AB10358B13669C0100216FE5 /* DCControlsAppDelegate.m */,
 				AB10358D13669C0C00216FE5 /* MainWindow.xib */,
@@ -193,6 +198,7 @@
 				AB1035B01366B14D00216FE5 /* DCControl.m in Sources */,
 				AB1035B51366B15700216FE5 /* DCKnob.m in Sources */,
 				AB1035B61366B15700216FE5 /* DCSlider.m in Sources */,
+				F02B818D16185C57003EF533 /* ADBSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
